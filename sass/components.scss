@@ -1,0 +1,54 @@
+@import "theme";
+
+.button {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.9375em;
+  line-height: 41px;
+  height: 40px;
+  text-align: center;
+  font-family: 'latoregular';
+
+  @media (max-width: 700px)
+  {
+    font-size: 0.8125em;
+  }
+
+
+  &--rounded {
+    border-radius: 32px;
+  }
+
+  &--grey {
+    background: linear-gradient(#444,#303030 1%,#262626);
+    border: solid 1px #333;
+    box-shadow: 0 0 5px rgb(0, 0, 0.1);
+    color: #eee;
+
+    &:hover {
+      background: linear-gradient(lighten(#555, 7%),lighten(#303030,7%) 1%,lighten(#262626, 7%));
+      box-shadow: 0 0 6px rgb(0, 0, 0.05);
+    }
+  }
+
+  &--lightgrey {
+    background: linear-gradient(#fff,#f5f5f5 1%,#eee);
+    border: solid 1px #ccc;
+    box-shadow: 0 0 2px rgba(0,0, 0, 0.07);
+    color: #555;
+
+    &:hover {
+      background: linear-gradient(darken(#fff, 7%), darken(#f5f5f5, 7%) 1%, darken(#eee, 7%));
+
+    }
+  }
+
+
+  &--white {
+    background: #fff;
+
+    &:hover {
+      background: #ddd;
+    }
+  }
+}

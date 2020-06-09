@@ -1,0 +1,51 @@
+@import "theme";
+
+@font-face {
+  font-family: 'latoregular';
+  src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+  url('../fonts/lato-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'latolight';
+  src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
+  url('../fonts/lato-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'latolight';
+  font-weight: 300;
+  color: $text-color;
+}
+
+p, a, tr, li {
+  font-family: 'latoregular';
+  color: $text-color;
+}
+
+a {
+  color: lighten($brand-color, 40%);
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1.1875em;
+
+  @media (max-width:  700px)
+  {
+    font-size: 0.8125em;
+  }
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.875em;
+}

@@ -1,0 +1,15 @@
+$brand-color: #221144;
+$text-color: #373737;
+$text-color-dark: #fff;
+$grey-dark: #3c3c3c;
+$grey: #474747;
+
+::-moz-selection {
+  background: darken($brand-color, 5%);
+  color: #fff;
+}
+
+::selection {
+  background: darken($brand-color, 5%);
+  color: #fff;
+}
