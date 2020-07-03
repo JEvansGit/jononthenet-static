@@ -835,6 +835,7 @@ textarea:focus {
 
 .pagination {
   margin: 60px 0;
+  text-align: center;
 }
 .pagination a {
   font-size: 12px;
