@@ -789,7 +789,11 @@ textarea:focus {
   }
 }
 .article-teaser {
-  border-bottom: solid 1px #ccc;
+  border: solid 1px #aaa;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px 0;
+  background: #ededed;
 }
 .article-teaser h2 {
   margin: 0;
