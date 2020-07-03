@@ -775,6 +775,7 @@ textarea:focus {
   animation-name: "darken-text";
   animation-duration: 0.4s;
   color: #111;
+  border: solid 2px #272727;
 }
 
 @keyframes darken-text {
