@@ -632,6 +632,7 @@ body {
 }
 .projects__project img {
   width: 100%;
+  height: auto;
 }
 .projects__project__preview {
   line-height: 0;
