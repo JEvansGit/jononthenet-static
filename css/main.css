@@ -671,7 +671,7 @@ body {
 }
 .languages-tech-container {
   background: #f1f1f1;
-  padding: 50px;
+  padding: 100px;
 }
 .languages-tech-container h2 {
   flex: 100%;
@@ -776,6 +776,7 @@ textarea:focus {
   animation-duration: 0.4s;
   color: #111;
   border: solid 2px #272727;
+  background: #fff;
 }
 
 @keyframes darken-text {
