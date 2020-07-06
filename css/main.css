@@ -372,12 +372,12 @@ template {
 h1, h2, h3, h4, h5, h6 {
   font-family: "latolight", sans-serif;
   font-weight: 300;
-  color: #373737;
+  color: #474747;
 }
 
 p, a, tr, li {
   font-family: "latoregular", sans-serif;
-  color: #373737;
+  color: #474747;
 }
 
 a {
@@ -386,7 +386,7 @@ a {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.7;
   font-size: 1.1875em;
 }
 @media (max-width: 700px) {
@@ -521,7 +521,13 @@ body {
   background-repeat: no-repeat;
   padding: 50px 0;
   background-position-x: 100%;
+  -webkit-animation-name: "slide-in";
+  -moz-animation-name: "slide-in";
+  -o-animation-name: "slide-in";
   animation-name: "slide-in";
+  -webkit-animation-duration: 100s;
+  -moz-animation-duration: 100s;
+  -o-animation-duration: 100s;
   animation-duration: 100s;
 }
 @media (max-width: 600px) {
@@ -729,7 +735,7 @@ footer {
 
 .blog {
   display: grid;
-  width: 620px;
+  width: 800px;
   margin: 0 auto;
   padding: 25px;
   box-sizing: border-box;
@@ -757,7 +763,13 @@ input[type=text], input[type=email] {
   box-sizing: border-box;
 }
 input[type=text]:focus, input[type=email]:focus {
+  -webkit-animation-name: "darken-text";
+  -moz-animation-name: "darken-text";
+  -o-animation-name: "darken-text";
   animation-name: "darken-text";
+  -webkit-animation-duration: 0.4s;
+  -moz-animation-duration: 0.4s;
+  -o-animation-duration: 0.4s;
   animation-duration: 0.4s;
   background: #fff;
   color: #111;
@@ -777,7 +789,13 @@ textarea {
   box-sizing: border-box;
 }
 textarea:focus {
+  -webkit-animation-name: "darken-text";
+  -moz-animation-name: "darken-text";
+  -o-animation-name: "darken-text";
   animation-name: "darken-text";
+  -webkit-animation-duration: 0.4s;
+  -moz-animation-duration: 0.4s;
+  -o-animation-duration: 0.4s;
   animation-duration: 0.4s;
   color: #111;
   border: solid 2px #272727;
