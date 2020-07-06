@@ -424,6 +424,13 @@ textarea {
   padding: 25px;
   box-sizing: border-box;
 
+  form {
+    ul{
+      list-style: none;
+      padding: 0;
+    }
+  }
+
   @media (max-width: 640px)
   {
     width: 95%;

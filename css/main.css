@@ -825,6 +825,10 @@ textarea:focus {
   padding: 25px;
   box-sizing: border-box;
 }
+.contact form ul {
+  list-style: none;
+  padding: 0;
+}
 @media (max-width: 640px) {
   .contact {
     width: 95%;
