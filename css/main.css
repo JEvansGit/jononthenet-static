@@ -594,7 +594,6 @@ body {
 .projects {
   width: 940px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(940px, 1fr));
   column-gap: 20px;
   grid-row-gap: 20px;
   margin: 0 auto;
@@ -631,10 +630,8 @@ body {
     height: auto;
   }
 }
-@media (max-width: 762px) {
-  .projects__project img {
-    width: 100%;
-  }
+.projects__project img {
+  width: 100%;
 }
 .projects__project__preview {
   line-height: 0;
