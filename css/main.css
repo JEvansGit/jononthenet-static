@@ -821,9 +821,13 @@ textarea:focus {
 
 .contact {
   width: 620px;
-  margin: 0 auto;
-  padding: 25px;
+  margin: 50px auto;
+  padding: 50px;
   box-sizing: border-box;
+  border-radius: 5px;
+  border: solid 1px #aaa;
+  background: linear-gradient(#eee, #ededed 1%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .contact form ul {
   list-style: none;
