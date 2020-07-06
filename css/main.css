@@ -473,7 +473,8 @@ body {
   justify-content: center;
   width: 100%;
   background: #190c32;
-  border-bottom: solid 1px #47228c;
+  border-bottom: solid 1px #3b295c;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
 }
 .nav__main__links {
   width: 940px;
@@ -704,17 +705,22 @@ footer {
   margin-top: 25px;
   border-radius: 32px;
 }
-
-.footer__links a {
+.footer__links__link {
   text-decoration: none;
   color: #fff;
-  font-size: 12px;
+  font-size: 0.875em;
   width: 150px;
   text-align: center;
   padding: 10px;
 }
-.footer__links a:hover {
-  background: rgba(0, 0, 0, 0.1);
+.footer__links__link:first-of-type:hover {
+  border-radius: 25px 0 0 25px;
+}
+.footer__links__link:last-of-type:hover {
+  border-radius: 0 25px 25px 0;
+}
+.footer__links__link:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .hidden {
@@ -860,7 +866,7 @@ textarea:focus {
   font-family: "latoreuglar", sans-serif;
   font-size: 12px;
   background: linear-gradient(#9b7ade, #7a4ed3 5%, #552cac);
-  padding: 10px 14px;
+  padding: 9px 14px;
   border-radius: 32px;
   color: #fff;
   border: solid 1px #9b7ade;

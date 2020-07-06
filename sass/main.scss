@@ -20,7 +20,8 @@ body {
   justify-content: center;
   width: 100%;
   background: #190c32;
-  border-bottom: solid 1px #47228c;
+  border-bottom: solid 1px #3b295c;
+  box-shadow: 0 0 10px rgba(0,0,0,0.75);
 
   &__links {
     width: 940px;
@@ -285,18 +286,26 @@ footer {
   margin: 0 auto;
   margin-top: 25px;
   border-radius: 32px;
-}
 
-.footer__links a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 12px;
-  width: 150px;
-  text-align: center;
-  padding: 10px;
+  &__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.875em;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
 
-  &:hover {
-      background: rgba(0, 0, 0,0.1);
+    &:first-of-type:hover {
+      border-radius: 25px 0 0 25px;
+    }
+
+    &:last-of-type:hover {
+      border-radius: 0 25px 25px 0;
+    }
+
+    &:hover {
+        background: rgba(255, 255, 255,0.2);
+    }
   }
 }
 
@@ -466,7 +475,7 @@ textarea {
       font-family: 'latoreuglar', sans-serif;
       font-size: 12px;
       background: linear-gradient(#9b7ade, #7a4ed3 5%, #552cac);
-      padding: 10px 14px;
+      padding: 9px 14px;
       border-radius: 32px;
       color: #fff;
       border: solid 1px #9b7ade;
