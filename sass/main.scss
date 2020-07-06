@@ -321,7 +321,6 @@ footer {
 
   .button {
     display: block;
-    margin-bottom: 25px;
     width: 110px;
   }
 }
@@ -385,16 +384,12 @@ textarea {
 .article-teaser {
   border: solid 1px #aaa;
   box-shadow: 0 0 6px rgba(0,0,0,0.2);
-  padding: 20px;
+  padding: 50px;
   margin: 20px 0;
   background: #ededed;
 
   h2 {
     margin: 0;
-
-    &:first-of-type {
-      margin-top: 25px;
-    }
   }
 
   &__tags {
