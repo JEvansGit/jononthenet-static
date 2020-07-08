@@ -20,14 +20,12 @@
   }
 
   &--grey {
-    background: linear-gradient(#444,#303030 1%,#262626);
-    border: solid 1px #333;
+    background: #333;
     box-shadow: 0 0 5px rgb(0, 0, 0.1);
     color: #eee;
 
     &:hover {
-      background: linear-gradient(lighten(#555, 7%),lighten(#303030,7%) 1%,lighten(#262626, 7%));
-      box-shadow: 0 0 6px rgb(0, 0, 0.05);
+      background: lighten(#333, 7%);
     }
   }
 
