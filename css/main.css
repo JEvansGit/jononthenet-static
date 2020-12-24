@@ -573,13 +573,12 @@ body {
 }
 
 .get-in-touch {
-  background: #212121;
+  background: #221144;
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 60px;
+  height: 80px;
   align-items: center;
-  border-top: solid 1px #444;
 }
 .get-in-touch p {
   color: #fff;
@@ -587,6 +586,8 @@ body {
 .get-in-touch .button {
   margin-left: 20px;
   width: 110px;
+  border: solid 1px #fff;
+  color: #fff;
 }
 
 .projects {
@@ -614,7 +615,7 @@ body {
 }
 .projects__project {
   background: #fff;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.15);
 }
 .projects__project p {
   font-size: 1em;
@@ -637,9 +638,6 @@ body {
 }
 .projects__project__description {
   padding: 25px;
-  background: #f6f6f6;
-  border-bottom: solid 1px #ccc;
-  border-top: solid 1px #ccc;
 }
 .projects__project__actions {
   font-size: 13px;
@@ -652,10 +650,8 @@ body {
   }
 }
 .projects__project__actions__action {
-  padding: 30px;
   font-weight: 700;
   text-decoration: none;
-  padding-right: 0;
   color: #333;
 }
 .projects__project__actions__action:hover {
